@@ -38,13 +38,13 @@ SECRET_KEY=<секретный ключ проекта django>
 
 Для работы с Workflow добавьте в Secrets GitHub переменные окружения для работы:
 
-DOCKER_PASSWORD=<пароль от DockerHub>
-DOCKER_USERNAME=<имя пользователя>
-SECRET_KEY=<секретный ключ проекта django>
-USER=<username для подключения к серверу>
-HOST=<IP сервера>
-PASSPHRASE=<пароль для сервера, если он установлен>
-SSH_KEY=<ваш SSH ключ (для получения команда: cat ~/.ssh/id_rsa)>
+- DOCKER_PASSWORD=<пароль от DockerHub>
+- DOCKER_USERNAME=<имя пользователя>
+- SECRET_KEY=<секретный ключ проекта django>
+- USER=<username для подключения к серверу>
+- HOST=<IP сервера>
+- PASSPHRASE=<пароль для сервера, если он установлен>
+- SSH_KEY=<ваш SSH ключ (для получения команда: cat ~/.ssh/id_rsa)>
 
 Workflow состоит из трёх шагов:
 
