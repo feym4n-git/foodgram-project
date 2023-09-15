@@ -8,8 +8,8 @@ git clone https://github.com/feym4n-git/foodgram-project
 Для работы с удаленным сервером (на ubuntu):
 Выполните вход на свой удаленный сервер
 
-`Установите docker на сервер:
-````
+Установите docker на сервер:
+```python
 sudo apt install docker.io 
 ```
 Установите docker-compose на сервер:
