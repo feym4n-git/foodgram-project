@@ -9,8 +9,9 @@ git clone https://github.com/feym4n-git/foodgram-project
 Выполните вход на свой удаленный сервер
 
 Установите docker на сервер:
-
+'''
 sudo apt install docker.io 
+'''
 Установите docker-compose на сервер:
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
